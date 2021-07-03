@@ -7,24 +7,17 @@ package com.projects;
 
 import java.util.Scanner;
 
-class Library {
+
+class Library{
     Scanner sc = new Scanner(System.in);
-
     String[] books = new String[100];
-    int id = 0;
+    int i=0;
 
-    public String takeInput(){
-        System.out.print("Enter Book Name: ");
-        String name = sc.nextLine();
-        return name;
-    }
-
-    public void addBook() {
-
-        books[id] = takeInput();
-        id++;
-        System.out.println("Book added successfully");
-
+    public void add(){
+        System.out.print("Enter name: ");
+        books[i] = sc.nextLine();
+        i++;
+        System.out.println("Book added Successfully");
     }
 
     public void issueBook() {
@@ -32,11 +25,15 @@ class Library {
         String issue_book = sc.nextLine();
 
         for (int i = 0; i < books.length; i++) {
-            if (books[i].equals(issue_book)) {
-                books[i] += " [issued]";
-                System.out.println("Issue successful");
+            if(books[i] != null) {
+                if (books[i].equals(issue_book)) {
+                    books[i] += " [issued]";
+                    System.out.println("Issue successful");
+                    return;
+                }
             }
         }
+        System.out.println("Book not found. Try again");
 
     }
 
@@ -45,65 +42,85 @@ class Library {
         String return_book = sc.nextLine();
 
         for (int i = 0; i < books.length; i++) {
-            if (books[i].contains(return_book)) {
-                books[i].replace(" [issued]", "");
-                System.out.println("Return book successful");
+            if(books[i] != null){
+                if (books[i].contains(return_book)) {
+                    books[i] = books[i].replace(" [issued]", "");
+                    System.out.println("Return book successful");
+                    return;
+                }
             }
+
         }
+        System.out.println("Book name is not valid. Try again later.");
 
     }
 
-    public void showAvailableBook() {
+    public void showAvailableBooks(){
         System.out.println("Available books are: ");
         int i = books.length;
 
         if (i == 0) {
             System.out.println("No books available");
         } else {
-            for (String name : books) {
-                if (name != null) {
-                    System.out.println(i + ". " + name);
+            for(int j=0; j<i; j++){
+                if(books[j]!=null){
+                    System.out.println(j+1 + ". " + books[j]);
                 }
             }
+
         }
     }
 
-    public void execute() { // here is the main issue
+    public void print(){
         System.out.println("""
                 Enter your choices:
                 1. Add Books
                 2. Issue Books
                 3. Return Books
                 4. Available Books
-                5. Exit
+                0. Exit
                 """);
+    }
 
+    public void run(){
+        Scanner sc =new Scanner(System.in);
+
+        print();
         System.out.print("Choice: ");
         int i = sc.nextInt();
 
-        while (i != 0) {
-
-            if (i == 1) {
-                this.addBook();
-            } else if (i == 2) {
-                this.issueBook();
-            } else if (i == 3) {
-                this.returnBook();
-            } else {
-                this.showAvailableBook();
+        while(i!=0){
+            if(i == 1) {
+                this.add();
             }
 
+            else if(i == 2) {
+                this.issueBook();
+            }
+
+            else if(i == 3){
+                this.returnBook();
+            }
+
+            else{
+                this.showAvailableBooks();
+            }
+
+            print();
             System.out.print("Choice: ");
             i = sc.nextInt();
         }
-
     }
+
 }
 
 public class libraryManagement {
+
+
     public static void main(String[] args) {
 
-        Library customer1 = new Library();
-        customer1.execute();
+        Library cr = new Library();
+        cr.run();
+
     }
 }
