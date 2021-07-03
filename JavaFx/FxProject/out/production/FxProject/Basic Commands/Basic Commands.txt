@@ -1,0 +1,74 @@
+    @Override
+    public void start(Stage stage) throws Exception {
+
+        // one kind of layout(1) where a scene will be present
+        StackPane sp = new StackPane();
+        sp.setMinHeight(300);
+        sp.setMinWidth(500);
+
+        // another kind of layout(2)
+        VBox v = new VBox();
+        v.setMinSize(500, 50);
+        v.setAlignment(Pos.CENTER);
+        v.setSpacing(20);   // spacing between node
+        v.setStyle("-fx-background-color:#F1C40F");
+
+        //another kind of layout(3)
+        AnchorPane p = new AnchorPane();
+        p.setMinSize(500,40);
+        p.setStyle("-fx-background-color:#08FFB5");
+
+        // another kind of layout(4)
+        BorderPane bp = new BorderPane();
+        bp.setMinSize(500,500);
+
+        // in a scene all nodes will be present
+        Scene sc = new Scene(bp);
+        stage.setScene(sc);
+
+        //node 1: label
+        Label lb = new Label();
+        lb.setAlignment(Pos.TOP_CENTER);
+
+        // node 2: button
+        Button btn = new Button("Click Me");
+        btn.setLayoutX(215);
+        btn.setLayoutY(255);
+
+
+        // node 3: text box
+        TextField txt = new TextField();
+        txt.setMaxWidth(300);
+        txt.setAlignment(Pos.CENTER);
+        txt.setLayoutX(100);
+        txt.setLayoutY(40);
+
+//        // button click action way: 1
+//        btn.setOnAction(new EventHandler<ActionEvent>() {
+//            @Override
+//            public void handle(ActionEvent actionEvent) {
+//                lb.setText("Hello" + txt.getText());
+//            }
+//        });
+
+        // button click action way: 2
+        btn.setOnAction(e->btnAction(lb, txt));
+
+
+        // adding another layout in borderpane layout
+        bp.setTop(v);
+        bp.setBottom(p);
+
+        // adding all nodes at a time
+        p.getChildren().add(btn);
+        v.getChildren().addAll(txt, lb);
+
+
+        // finally show the stage
+        stage.show();
+
+    }
+
+    void btnAction(Label lbl, TextField t){
+        lbl.setText("Hello " + t.getText());
+    }

@@ -1,0 +1,62 @@
+    public void start(Stage stage) throws Exception{
+        // parent layout
+        BorderPane bp = new BorderPane();
+        bp.setMinSize(500,300);
+
+        // child layout(1)
+        VBox vb = new VBox();
+        vb.setMinHeight(80);
+        vb.setMinWidth(Region.USE_COMPUTED_SIZE);
+        vb.setStyle("-fx-border-color:black;-fx-border-width:0 0 1 0");
+
+        // child layout(2)
+        VBox vb2 = new VBox();
+        vb2.setMinHeight(Region.USE_COMPUTED_SIZE);
+        vb2.setMinWidth(Region.USE_COMPUTED_SIZE);
+        vb2.setAlignment(Pos.CENTER);
+        vb2.setSpacing(20);
+        vb2.setStyle("-fx-border-color:red;-fx-background-color:#D4F2FC");
+
+        // node 1: user name
+        TextField tf = new TextField("User Name");
+        tf.setMaxWidth(200);
+        tf.setAlignment(Pos.CENTER);
+
+        // node 2: password
+        TextField tf2 = new TextField("Password");
+        tf2.setMaxWidth(200);
+        tf2.setAlignment(Pos.CENTER);
+
+        // node 3: parameter showing success or failed message
+        Label lb = new Label();
+
+        // node 4: Submit Button
+        Button btn = new Button("Sumbit");
+        btn.setAlignment(Pos.CENTER);
+        btn.setOnAction(e-> showLabel(tf, tf2,lb));
+
+        // Main Scene
+        Scene sc = new Scene(bp);
+
+        // connecting layout and nodes with scene
+        vb2.getChildren().addAll(tf,tf2,btn,lb);
+        bp.setTop(vb);
+        bp.setCenter(vb2);
+
+        // showing stage title, scene
+        stage.setTitle("Login Application");
+        stage.setScene(sc);
+        stage.show();
+    }
+
+    void showLabel(TextField usr, TextField pas, Label lbl){
+        String user = usr.getText();
+        String pass = pas.getText();
+
+        if(user.equals("Fahad") && pass.equals("1234")) {
+            lbl.setText("Success!!!");
+        }
+        else{
+            lbl.setText("Failed!!!");
+        }
+    }

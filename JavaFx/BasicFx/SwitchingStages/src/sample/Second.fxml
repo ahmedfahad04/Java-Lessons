@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FirstController">
+   <children>
+      <Pane layoutX="14.0" layoutY="15.0" prefHeight="369.0" prefWidth="571.0" style="-fx-background-color: red;" />
+      <Button fx:id="btn2" layoutX="126.0" layoutY="184.0" mnemonicParsing="false" onAction="#gotofirst" prefHeight="62.0" prefWidth="132.0" text="Go to 1st Stage" />
+      <Button fx:id="btnclose2" layoutX="349.0" layoutY="184.0" mnemonicParsing="false" onAction="#closeStage2" prefHeight="62.0" prefWidth="126.0" text="Cancel" />
+   </children>
+</AnchorPane>

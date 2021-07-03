@@ -1,0 +1,52 @@
+public void start(Stage stage) throws Exception {
+
+        HBox h = new HBox();
+        h.setMinSize(400,400);
+
+        VBox v1 = new VBox();
+        v1.setMinSize(200,200);
+        //v1.setStyle("-fx-background-color: red");
+        v1.setAlignment(Pos.CENTER);
+
+        VBox v2 = new VBox();
+        v2.setMinSize(200,200);
+        //v2.setStyle("-fx-background-color: blue");
+        v2.setAlignment(Pos.CENTER);
+
+        // nodes
+        Label l1 = new Label("Home Page");
+        Label l2 = new Label("About Us");
+        Button b1 = new Button("Go to Home page");
+        Button b2 = new Button("Go to About us");
+
+        // set up connections
+        h.getChildren().addAll(v1,v2);
+        v1.getChildren().addAll(l1,b1);
+        v2.getChildren().addAll(l2,b2);
+
+
+        // actions
+        b1.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                v2.setStyle("-fx-background-color: blue");
+                v1.setStyle("-fx-background-color: white");
+            }
+        });
+
+        b2.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                v1.setStyle("-fx-background-color: red");
+                v2.setStyle("-fx-background-color: white");
+            }
+        });
+
+
+        Scene sc = new Scene(h);
+
+        stage.setScene(sc);
+        stage.setTitle("Test Code");
+        stage.show();
+
+    }

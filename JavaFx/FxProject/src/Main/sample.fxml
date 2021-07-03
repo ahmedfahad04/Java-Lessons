@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="718.0" style="-fx-background-color: #020024;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="450.0" prefWidth="258.0" style="-fx-background-color: #090979;">
+         <children>
+            <VBox layoutY="166.0" prefHeight="284.0" prefWidth="258.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="41.0" prefWidth="264.0" style="-fx-background-color: #020024; -fx-background-radius: 30 0 0 30;" stylesheets="@../CSS/file.css" text="Home" textFill="#fffefe" />
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="264.0" style="-fx-background-color: #020024; -fx-background-radius: 30 0 0 30;" stylesheets="@../CSS/file.css" text="Home" textFill="#fffefe" />
+                  <Button layoutX="10.0" layoutY="51.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="264.0" style="-fx-background-color: #020024; -fx-background-radius: 30 0 0 30;" stylesheets="@../CSS/file.css" text="Home" textFill="#fffefe" />
+                  <Button layoutX="10.0" layoutY="92.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="264.0" style="-fx-background-color: #020024; -fx-background-radius: 30 0 0 30;" stylesheets="@../CSS/file.css" text="Home" textFill="#fffefe" />
+               </children></VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

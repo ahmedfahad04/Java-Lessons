@@ -1,0 +1,45 @@
+    public void start(Stage stage) throws Exception {
+
+        // layouts
+        VBox v1 = new VBox();
+        v1.setAlignment(Pos.CENTER);
+        v1.setMinSize(500,300);
+        v1.setSpacing(15);
+        v1.setStyle("-fx-border-color:red;-fx-background-color:red");
+        VBox v2 = new VBox();
+        v2.setAlignment(Pos.CENTER);
+        v2.setMinSize(500,300);
+        v2.setSpacing(15);
+        v2.setStyle("-fx-border-color:red;-fx-background-color:pink");
+
+        // nodes
+        Label l1 = new Label("Home Page");
+        Label l2 = new Label("About Us");
+        Button b1 = new Button("Go to About us page");
+        Button b2 = new Button("Go to Home page");
+
+        // scenes
+        Scene sc = new Scene(v1);
+        Scene sc2 = new Scene(v2);
+
+        // actions
+        b1.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                stage.setScene(sc2);
+            }
+        });
+
+        b2.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                stage.setScene(sc);
+            }
+        });
+
+        v1.getChildren().addAll(l1,b1);
+        v2.getChildren().addAll(l2,b2);
+        stage.setTitle("Multiple Scene");
+        stage.setScene(sc);;
+        stage.show();
+    }

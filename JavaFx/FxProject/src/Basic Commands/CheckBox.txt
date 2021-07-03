@@ -1,0 +1,74 @@
+package Main;
+
+import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.geometry.Pos;
+import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.*;
+import javafx.stage.Stage;
+import javafx.scene.Scene;
+
+public class Main extends Application {
+
+    public void start(Stage stage) throws Exception {
+
+        // layouts
+        HBox h = new HBox();
+        h.setMinSize(400,400);
+
+        VBox v1 = new VBox();
+        v1.setMinSize(200,200);
+        v1.setAlignment(Pos.TOP_LEFT);
+
+        VBox v2 = new VBox();
+        v2.setMinSize(200,200);
+        v2.setAlignment(Pos.TOP_LEFT);
+
+        // nodes
+        CheckBox c1 = new CheckBox("Apple");
+        CheckBox c2 = new CheckBox("Orange");
+        CheckBox c3 = new CheckBox("Mango");
+        CheckBox c4 = new CheckBox("Banana");
+
+        // actions
+        c1.setOnAction(e->chAction(c1, v1, v2));
+        c2.setOnAction(e->chAction(c2, v1, v2));
+        c3.setOnAction(e->chAction(c3, v1, v2));
+        c4.setOnAction(e->chAction(c4, v1, v2));
+
+        // set up connections
+        h.getChildren().addAll(v1,v2);
+        v1.getChildren().addAll(c1,c2,c3,c4);
+
+        // setting scene
+        Scene sc = new Scene(h);
+        stage.setScene(sc);
+        stage.setTitle("Test Code");
+        stage.show();
+
+    }
+
+    void chAction(CheckBox cb, VBox v1, VBox v2){
+        if(cb.isSelected()){
+            v2.setStyle("-fx-background-color: yellow");
+            v1.setStyle("-fx-background-color: white");
+            v2.getChildren().add(cb);
+        }
+        else if(!cb.isSelected()){
+            v1.setStyle("-fx-background-color: red");
+            v2.setStyle("-fx-background-color: white");
+            v1.getChildren().add(cb);
+        }
+
+    }
+
+
+    public static void main(String[] args){
+
+       launch(args);
+    }
+}

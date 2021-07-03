@@ -1,0 +1,76 @@
+package Main;
+
+import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.geometry.Pos;
+import javafx.scene.control.Button;
+import javafx.scene.layout.*;
+import javafx.stage.Stage;
+import javafx.scene.Scene;
+
+public class Main extends Application {
+
+    public void start(Stage stage) throws Exception,InterruptedException {
+        HBox h = new HBox();
+        h.setAlignment(Pos.CENTER);
+        h.setMinSize(500,300);
+
+        Button btn = new Button("Go to Next Page");
+
+        h.getChildren().add(btn);
+
+        btn.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                Stage2 stage2 = new Stage2();
+                stage.close();
+            }
+        });
+
+        Scene sc = new Scene(h);
+        stage.setScene(sc);
+        stage.setTitle("FIRST Stage");
+        stage.show();
+
+    }
+
+
+
+    public static void main(String[] args) throws InterruptedException {
+
+       launch(args);
+
+    }
+}
+
+//------------------------------------------------------Stag2.java----------------------------
+
+package Main;
+
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.layout.HBox;
+import javafx.stage.Stage;
+
+public class Stage2 extends Stage {
+
+    Stage2(){
+        HBox h2 = new HBox();
+        h2.setAlignment(Pos.CENTER);
+        h2.setMinSize(500,300);
+
+        Label lb = new Label("Welcome to HOME Page");
+        h2.getChildren().add(lb);
+
+        Scene sc = new Scene(h2);
+        Stage stage2 = new Stage();
+        stage2.setScene(sc);
+        stage2.setTitle("Second Stage");
+        stage2.setMinWidth(500);
+        stage2.setMinHeight(300);
+        stage2.show();
+    }
+
+}
