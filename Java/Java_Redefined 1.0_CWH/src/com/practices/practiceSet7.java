@@ -1,3 +1,6 @@
+/*
+ * Practice Problem on Methods
+ */
 package com.practices;
 
 public class practiceSet7 {
