@@ -33,12 +33,10 @@ public class AbstractClass {
 
 
 
-        // Interface usage
-//      resource: https://docs.oracle.com/javase/tutorial/java/concepts/interface.html
 
 /*
         Note:(Abstract class)
-        1. abstract class can be used only as REFERENCE. No object instantiation is allowed.
+        1. abstract class can be used only as "REFERENCE". No object instantiation is allowed.
         2. Child class of abstract classes can be "instantiate"
         3. child class of abstract class is called "Concrete" class
 
@@ -50,10 +48,7 @@ public class AbstractClass {
         not to give any implementation to this method in parent class.
 
         resource: https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html
-*/
 
-
-/*
         Note:(Interface)
         1. while implementing interfaces methods I must declare "public" keyword
         2. benefit is that I can implement "multiple" interface to a class and also
@@ -71,6 +66,8 @@ public class AbstractClass {
         artist list and so on. So it means certain pane or window(mainly interface) has certain types of
         properties and using a interface class we can define the signature of these types of properties
         and their child class will implement these methods.]
+
+        resource: https://docs.oracle.com/javase/tutorial/java/concepts/interface.html
 */
 
 
