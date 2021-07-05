@@ -24,6 +24,7 @@ class CellPhone{
 }
 
 interface GPS{
+    String gpsModel = "12F51-D";
     void showGPS();
     void navigateUser();
 }
@@ -38,11 +39,39 @@ interface MusicPlayer{
     void playMusic();
 }
 
-class SmartPhone extends CellPhone implements GPS, Camera, MusicPlayer{
+interface Wifi{
+    String[] getNetworks();
+    void connectToNetwork(String network);
+    //default methods
+    /*
+    basically after implementing methods of a class
+    if we need to add more methods it will show error and also
+    force the class(that implemented this interface) to write the
+    method body.
+
+    But we can skip this situation by making the new method "DEFAULT"
+    we can make default method like below. The additional facility is
+    we can also override the method in the class that inherit wifi interface.
+    we can also use PRIVATE methods in interface
+     */
+
+    default void searchingMoreNetworks(){
+        System.out.println("Wifi is searching new networks");
+    }
+}
+
+class SmartPhone extends CellPhone implements GPS, Camera, MusicPlayer, Wifi{
+    String gpsModel = "DD15"; //but you can override the fields. not recommended
 
     @Override
     public void showGPS() {
         System.out.println("Smart Phone GPS loading....");
+    }
+
+    @Override
+    public void searchingMoreNetworks() {
+        System.out.println("This method is also overriden. It shows that a default method can also" +
+                "be overriden");
     }
 
     @Override
@@ -69,6 +98,15 @@ class SmartPhone extends CellPhone implements GPS, Camera, MusicPlayer{
     public void playMusic() {
         System.out.println("'Allahu Allahu ..' is playing");
     }
+
+    public String[] getNetworks(){
+        System.out.println("Getting List of Networks");
+        String[] networkList = {"Fahad", "Rajin", "Kalam Vai"};
+        return networkList;
+    }
+    public void connectToNetwork(String network){
+        System.out.println("Connecting to " + network);
+    }
 }
 
 
@@ -78,6 +116,15 @@ public class Interface {
         xiaomi.showGPS();
         xiaomi.playMusic();
         xiaomi.playRadio();
+        xiaomi.searchingMoreNetworks();
+
+        String[] networks = xiaomi.getNetworks();
+        for(String net: networks) {
+            xiaomi.connectToNetwork(net);
+        }
+
+        System.out.println("GPS model is: " + xiaomi.gpsModel); // this value is const. never be changed
+
 
         /*
          Note:
@@ -88,6 +135,8 @@ public class Interface {
          INHERITANCE.
 
          Thus we can relate interface with real world scenarios.
+
+         # default methods (watch wifi interface)
          */
     }
 }
