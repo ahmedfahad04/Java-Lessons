@@ -1,0 +1,87 @@
+### Dynamic Method Dispatch:
+--------------------------------------
+- object is created on runtime.**
+- parents' obj can be equal to subclass's/ child class's reference
+
+Example:
+class Phone{
+}
+
+class SmartPhone extends Phone{
+}
+
+Phone nokia = new SmartPhone() -> [Super class's Reference and SubClass' Object.]
+* nokia is a REFERENCE of SUPERClass Phone.
+* new SmartPhone() is the REAL OBJECT. It means we are creating SmartPhone Class's object.
+-> this is called dynamic method dispatch.[runtime polymorphism]
+-> all methods of Super Class can be used. 'None' of Sub class can be used except overloaded methods.
+-> even the overload method w
+
+### Compile Time VS Run Time
+https://www.javatpoint.com/compile-time-vs-runtime
+
+* a C code is compiled to .o file and a java code is compiled to .class file
+
+### Super keyword:
+-------------------------------
+Usage:
+1. Used to refer immediate parent class instance variable(internal varible).
+class Animal{  
+String color="white";  
+}  
+class Dog extends Animal{  
+String color="black";  
+void printColor(){  
+System.out.println(color);//prints color of Dog class  
+System.out.println(super.color);//prints color of Animal class  
+}  
+}  
+class TestSuper1{  
+public static void main(String args[]){  
+Dog d=new Dog();  
+d.printColor();  
+}}  
+
+
+2. super can be used to invoke parent class method
+class Animal{  
+void eat(){System.out.println("eating...");}  
+}  
+class Dog extends Animal{  
+void eat(){System.out.println("eating bread...");}  
+void bark(){System.out.println("barking...");}  
+void work(){  
+super.eat();  
+bark();  
+}  
+}  
+class TestSuper2{  
+public static void main(String args[]){  
+Dog d=new Dog();  
+d.work();  
+}}  
+
+3.super is used to invoke parent class constructor.
+class Person{  
+int id;  
+String name;  
+Person(int id,String name){  
+this.id=id;  
+this.name=name;  
+}  
+}  
+class Emp extends Person{  
+float salary;  
+Emp(int id,String name,float salary){  
+super(id,name);//reusing parent constructor  
+this.salary=salary;  
+}  
+void display(){System.out.println(id+" "+name+" "+salary);}  
+}  
+class TestSuper5{  
+public static void main(String[] args){  
+Emp e1=new Emp(1,"ankit",45000f);  
+e1.display();  
+}}  
+
+### Coupling??

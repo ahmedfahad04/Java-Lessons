@@ -1,0 +1,7 @@
+1. Serialization:
+Issue: java.io.NotSerializableException: sample.Student
+Fix: I need to implements Serializable in Student class. Thats all!
+
+2. Issue: symbol not found
+Fix: wait for loading the indexes or java-sdk.
+

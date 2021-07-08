@@ -1,0 +1,17 @@
+Necessary Softwares:
+1. Download JDK(Java Development Kit): https://www.oracle.com/java/technologies/javase-jdk16-downloads.html
+Then click on "jdk-16.0.1_windows-x64_bin.exe" and your JDK download will start.
+[Extract it, set the location in environment path][to check the version type this on cmd "java -version" without quotation.]
+
+2. Download IntelliJ: https://www.jetbrains.com/idea/download/#section=windows
+Then download the Community Version(Marked as black button).
+
+3. Download Netbeans: https://downloads.apache.org/netbeans/netbeans/12.4/Apache-NetBeans-12.4-bin-windows-x64.exe
+(Recommended those have less Ram/Processor)
+
+4. Download Eclipse: https://www.eclipse.org/downloads/
+Then click on "Download x86_64".
+
+5. Download JRE: https://download.cnet.com/Java-Runtime-Environment-JRE-64-Bit/3000-2213_4-75317067.html
+
+Which Softwares you need to run JAVA and why you need it: https://www.cis.upenn.edu/~matuszek/General/JavaSyntax/software.html

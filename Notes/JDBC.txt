@@ -1,0 +1,15 @@
+1. import the package(phone)
+2. Load and Register the Driver(sim card)
+3. Estiblish the Connection(dial phone)
+4. Create the statement.(is result is out?)
+5. Execute the Query.(speak to your friend)
+6. Process the result.(yes published)
+7. Close the connection.(ok bye. cut the line)
+
+An example when you phone your friend to know if his result is out or not.
+
+## Package: java.sql.*
+## a. Load: mysql-Connector(.jar)
+   b. Register: Class.forName("org.sqlite.JDBC"); 
+## Establish the connection: Connection-one kind of interface
+## Statements: Statement, Pepared Statement, Callable Statement-for store procedure.

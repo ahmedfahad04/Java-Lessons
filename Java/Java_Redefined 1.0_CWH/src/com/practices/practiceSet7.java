@@ -95,30 +95,30 @@ public class practiceSet7 {
     }
 
     public static void main(String[] args) {
-        // Question 1
+//         Question 1
 //        MultiplicationTable(15);
-
-        // Question 2
+//
+//         Question 2
 //        patter1(13);
-
-        // Question 3
+//
+//         Question 3
 //        System.out.println("Summation: " + summation(10));
-
-        // Question 4
+//
+//         Question 4
 //        pattern2(5);
-
-        // Question 5
+//
+//         Question 5
 //        System.out.println(fibonacci(10));
-
-        // Question 6
+//
+//         Question 6
 //        System.out.println("Average is: " + average(2,3,5) );
-
-        // Question 7
+//
+//         Question 7
 //        pattern2Recursion(5);
-        // Question 8
+//         Question 8
 //        pattern1_rec(5);
-
-        // Question 9
+//
+//         Question 9
 //        System.out.println("Fahrenheit: " + TempConverter(28));
 
         // Question 10

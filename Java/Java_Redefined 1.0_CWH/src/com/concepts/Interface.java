@@ -42,6 +42,7 @@ interface MusicPlayer{
 interface Wifi{
     String[] getNetworks();
     void connectToNetwork(String network);
+
     //default methods
     /*
     basically after implementing methods of a class
@@ -60,6 +61,8 @@ interface Wifi{
     }
 }
 
+// this is a smartphone which is actually a cellphone and also acts as gps, camera..etc.
+// this is polymorphism in inheritance
 class SmartPhone extends CellPhone implements GPS, Camera, MusicPlayer, Wifi{
     String gpsModel = "DD15"; //but you can override the fields. not recommended
 
@@ -70,8 +73,8 @@ class SmartPhone extends CellPhone implements GPS, Camera, MusicPlayer, Wifi{
 
     @Override
     public void searchingMoreNetworks() {
-        System.out.println("This method is also overriden. It shows that a default method can also" +
-                "be overriden");
+        System.out.println("This method is also overridden. It shows that a default method can also" +
+                "be overridden");
     }
 
     @Override
@@ -91,12 +94,12 @@ class SmartPhone extends CellPhone implements GPS, Camera, MusicPlayer, Wifi{
 
     @Override
     public void showPlayer() {
-        System.out.println("Music palyer ready to go...");
+        System.out.println("Music player ready to go...");
     }
 
     @Override
     public void playMusic() {
-        System.out.println("'Allahu Allahu ..' is playing");
+        System.out.println("'Allah Allah ..' is playing");
     }
 
     public String[] getNetworks(){
@@ -125,18 +128,35 @@ public class Interface {
 
         System.out.println("GPS model is: " + xiaomi.gpsModel); // this value is const. never be changed
 
+        GPS gps1 = new SmartPhone();
+
+//        It is not allowed . it means we are restricting the user to use the gps only, not other features of smartphone is allowed here.
+//        gps1.getNetworks()
+        gps1.showGPS();
+
+
+
 
         /*
          Note:
-         The thing is that the CELLPHONE class is now evolved to SMARTPHONE class.
+         - The thing is that the CELLPHONE class is now evolved to SMARTPHONE class.
          That means smartphones inherit all features of cellphone and more over it also
          have GPS, Camera, MusicPlayer which is not in cellPhone. So, in this way we can
          add the additional features as INTERFACE and get the General structure using
          INHERITANCE.
 
+         - Interface can also be used to restrict specific users to use specific features of
+         product. Like the gps1 obj above done.
+
          Thus we can relate interface with real world scenarios.
 
          # default methods (watch wifi interface)
+         # private methods can also be added to the interface. Also
+         can give the implementations of that private method.
+         # If I take the reference of a class and make obj of its child class
+         then the obj can ONLY access the method and fields of that REFERENCE class.
+         like the gps1 obj above.
+
          */
     }
 }
