@@ -14,4 +14,5 @@ An example when you phone your friend to know if his result is out or not.
 ## Establish the connection: Connection-one kind of interface
 ## Statements: Statement, Pepared Statement, Callable Statement-for store procedure.
 
+----------------
 Enjoy!!
