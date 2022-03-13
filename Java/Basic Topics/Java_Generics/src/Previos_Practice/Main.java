@@ -1,3 +1,5 @@
+package Previos_Practice;
+
 public class Main {
     public static void main(String [] args){
 
@@ -20,5 +22,5 @@ public class Main {
 
 }
 
-// NB: I didn't need to import the part1 class. when the classes are from different package you need to import them.
+// NB: I didn't need to import the Previos_Practice.part1 class. when the classes are from different package you need to import them.
 

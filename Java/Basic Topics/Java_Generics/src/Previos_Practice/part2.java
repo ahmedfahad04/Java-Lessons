@@ -1,4 +1,4 @@
-// shows how to use multiple generic type obj
+package Previos_Practice;// shows how to use multiple generic type obj
 
 
 public class part2 <T, S>{

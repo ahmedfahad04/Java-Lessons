@@ -1,3 +1,5 @@
+package Previos_Practice;
+
 // shows very basic way to work with generics
 public class part1<T>{
     private final T obj;

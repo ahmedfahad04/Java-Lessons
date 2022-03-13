@@ -1,4 +1,4 @@
-// shows how to impose type restrictions while using generics.(Bounded Type)
+package Previos_Practice;// shows how to impose type restrictions while using generics.(Bounded Type)
 // ==> <T extends Number>
 
 public class part3<T extends Number> {
