@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Server/Server.iml" filepath="$PROJECT_DIR$/Server/Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Socket.iml" filepath="$PROJECT_DIR$/.idea/Socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SocketClient/SocketClient.iml" filepath="$PROJECT_DIR$/SocketClient/SocketClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SocketPractice1/SocketPractice1.iml" filepath="$PROJECT_DIR$/SocketPractice1/SocketPractice1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SocketWithMultipleClient/SocketWithMultipleClient.iml" filepath="$PROJECT_DIR$/SocketWithMultipleClient/SocketWithMultipleClient.iml" />
+    </modules>
+  </component>
+</project>

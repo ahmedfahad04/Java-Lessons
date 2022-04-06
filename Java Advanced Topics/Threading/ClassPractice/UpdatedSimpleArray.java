@@ -12,7 +12,7 @@ public class  UpdatedSimpleArray {
         array = new int[size];
     }
 
-    public synchronized void add(int value){
+    public void add(int value){
         int position = writeIndex;
         try{
             Thread.sleep(generator.nextInt(500));

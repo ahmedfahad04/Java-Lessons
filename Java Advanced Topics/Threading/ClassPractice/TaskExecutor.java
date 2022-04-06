@@ -15,7 +15,6 @@ public class TaskExecutor {
         System.out.println("Starting Executor");
 
         ExecutorService threadExecutor = Executors.newCachedThreadPool();
-
         threadExecutor.execute(task1);
         threadExecutor.execute(task2);
         threadExecutor.execute(task3);

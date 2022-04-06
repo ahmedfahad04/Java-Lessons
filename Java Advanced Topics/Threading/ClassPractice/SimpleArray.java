@@ -14,7 +14,9 @@ public class SimpleArray {
     }
 
     public void add(int value){
+
         int position = writeIndex;
+
         try{
             Thread.sleep(generator.nextInt(500));
         } catch (InterruptedException e) {
