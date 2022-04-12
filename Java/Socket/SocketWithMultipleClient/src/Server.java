@@ -19,6 +19,7 @@ class ClientHandler extends Thread{
     public void run(){
 
         String received = "";
+
         while(!received.equals("Stop")) {
 
             try {

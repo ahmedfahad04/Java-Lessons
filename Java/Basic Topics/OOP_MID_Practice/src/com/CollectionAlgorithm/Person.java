@@ -21,5 +21,6 @@ public class Person implements Comparable<Person>{
     @Override
     public int compareTo(Person o) {
         return o.name.compareToIgnoreCase(this.name) < 0 ? 1:-1; // ascending order
+//        return o.age > this.age ? 1 : -1;
     }
 }

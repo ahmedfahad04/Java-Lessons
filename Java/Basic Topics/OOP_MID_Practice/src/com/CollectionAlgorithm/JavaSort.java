@@ -29,6 +29,7 @@ public class JavaSort {
             System.out.print(s + " ");
         }
 
+
         Arrays.sort(price);
         for(int a: price){
             System.out.println(a + " ");

@@ -20,9 +20,9 @@ class Point{
         return this.y;
     }
 
-//    public String toString(){
-//        return "( " + this.x + ", " + this.y + " )\n";
-//    }
+    public String toString(){
+        return "( " + this.x + ", " + this.y + " )\n";
+    }
 }
 
 class SortedPoint implements Comparator<Point> {

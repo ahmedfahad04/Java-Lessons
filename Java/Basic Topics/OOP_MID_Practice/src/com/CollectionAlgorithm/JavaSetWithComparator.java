@@ -16,7 +16,7 @@ public class JavaSetWithComparator {
         Person p3 = new Person("Sabit", 20);
 
         ans.addAll(Arrays.asList(p1, p2, p3));
-        for(Person p: res){
+        for(Person p: ans){
             System.out.println(p.getName() + " " + p.getAge());
         }
 
