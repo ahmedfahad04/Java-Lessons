@@ -1,10 +1,8 @@
 package com.PracticeProblem;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.PriorityQueue;
+import java.util.*;
 
-class Point implements Comparable<Point>{
+class Point{
 
     private final int x;
     private final int y;
@@ -22,29 +20,44 @@ class Point implements Comparable<Point>{
         return this.y;
     }
 
-    @Override
-    public int compareTo(Point a){
-        return a.x > this.x ? 1 : -1;
-    }
-
 //    public String toString(){
 //        return "( " + this.x + ", " + this.y + " )\n";
 //    }
 }
 
+class SortedPoint implements Comparator<Point> {
+    @Override
+    public int compare(Point a, Point b) {
+        return b.getX() - a.getX();
+    }
+}
+
 public class PointSorting {
     public static void main(String[] args) {
 
-        PriorityQueue<Point> coordinates = new PriorityQueue<>();
-        coordinates.offer(new Point(21,47));
-        coordinates.offer(new Point(14,15));
-        coordinates.offer(new Point(22,56));
-        coordinates.offer(new Point(8,5));
-        coordinates.offer(new Point(16,26));
+//        PriorityQueue<Point> coordinates = new PriorityQueue<>();
+//        coordinates.offer(new Point(21,47));
+//        coordinates.offer(new Point(14,15));
+//        coordinates.offer(new Point(22,56));
+//        coordinates.offer(new Point(8,5));
+//        coordinates.offer(new Point(16,26));
+//
+//        while(!coordinates.isEmpty()){
+//            Point xy = coordinates.poll();
+//            System.out.println("( " + xy.getX() + ", " + xy.getY() + " )\n");
+//        }
 
-        while(!coordinates.isEmpty()){
-            Point xy = coordinates.poll();
-            System.out.println("( " + xy.getX() + ", " + xy.getY() + " )\n");
+        List<Point> point = new ArrayList<>();
+
+        point.add(new Point(21,47));
+        point.add(new Point(41,55));
+        point.add(new Point(25,62));
+        point.add(new Point(37,11));
+
+        Collections.sort(point, new SortedPoint());
+
+        for(Point p: point){
+            System.out.println(p.getX() + " " + p.getY());
         }
 
     }

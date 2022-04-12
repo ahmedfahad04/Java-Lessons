@@ -15,7 +15,7 @@ public class PrintTask implements Runnable {
 
 
     @Override
-    public void run() {
+    public synchronized void  run() {
         try{
             System.out.printf("%s going to sleep for %d milliseconds. \n", taskName, sleepTime);
             Thread.sleep(sleepTime);

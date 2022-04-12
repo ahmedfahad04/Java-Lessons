@@ -5,47 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="974bb036-45f5-49af-b730-0bc21ede89cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/Generics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/Practice_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Basic Topics/OOP_Generics/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Socket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocketClient/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocketClient/SocketClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocketPractice1/SocketPractice1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocketPractice1/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocketPractice1/src/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocketWithMultipleClient/SocketWithMultipleClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocketWithMultipleClient/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocketWithMultipleClient/src/Client_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocketWithMultipleClient/src/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/genericsMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/genericsMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/ClassPractice/SimpleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/ClassPractice/SimpleArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/ClassPractice/TaskExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/ClassPractice/TaskExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/ClassPractice/UpdatedSimpleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/ClassPractice/UpdatedSimpleArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/JavaThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/Concepts/JavaThreading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/SynchronizedThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/Concepts/SynchronizedThreading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/ATM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/BankAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/ClassPractice/SharedArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/ClassPractice/SharedArrayTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/ClassPractice/SimpleArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/ClassPractice/SimpleArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/ClassPractice/TaskExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/ClassPractice/TaskExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/ClassPractice/UpdatedSimpleArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/ClassPractice/UpdatedSimpleArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/JavaThreading$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/JavaThreading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/RunnableExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/SynchronizedThreading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Threading/out/production/Threading/ThreadExample.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Lab1_Generics/EmptyStackException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Lab1_Generics/FullStackException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Lab1_Generics/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/CollectionAlgorithm/JavaSetWithComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/CollectionAlgorithm/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/out/production/Generics/Building.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/out/production/Generics/Building.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/out/production/Generics/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/out/production/Generics/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/out/production/Generics/Office.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/out/production/Generics/Office.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/out/production/Generics/wildcardgenerics.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/out/production/Generics/wildcardgenerics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/wildcardgenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Advanced Topics/Generics/wildcardgenerics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/Java_Generics/out/production/Java_Generics/Lab1_Generics/GenericMethodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/out/production/Java_Generics/Lab1_Generics/GenericMethodTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/Java_Generics/out/production/Java_Generics/Lab1_Generics/MaximumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/out/production/Java_Generics/Lab1_Generics/MaximumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/Java_Generics/out/production/Java_Generics/Lab1_Generics/OverloadedMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/out/production/Java_Generics/Lab1_Generics/OverloadedMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/Java_Generics/out/production/Java_Generics/Previos_Practice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/out/production/Java_Generics/Previos_Practice/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/Java_Generics/out/production/Java_Generics/Previos_Practice/part1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/out/production/Java_Generics/Previos_Practice/part1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Lab1_Generics/GenericMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Lab1_Generics/GenericMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Lab1_Generics/MaximumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Lab1_Generics/MaximumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Lab1_Generics/OverloadedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Lab1_Generics/OverloadedMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Lab1_Generics/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Lab1_Generics/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Lab1_Generics/TotalNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Lab1_Generics/TotalNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Previos_Practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Previos_Practice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Previos_Practice/part1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/Java_Generics/src/Previos_Practice/part1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/CollectionAlgorithm/JavaAlgos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/CollectionAlgorithm/JavaAlgos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/CollectionAlgorithm/JavaPriorityQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/CollectionAlgorithm/JavaPriorityQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/CollectionAlgorithm/JavaSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/CollectionAlgorithm/JavaSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/CollectionAlgorithm/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/CollectionAlgorithm/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/CollectionInterface/JavaArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/CollectionInterface/JavaArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/CollectionInterface/JavaSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/CollectionInterface/JavaSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/PracticeProblem/FindDistinctCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/PracticeProblem/FindDistinctCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/PracticeProblem/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/PracticeProblem/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/PracticeProblem/PointSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/out/production/OOP_MID_Practice/com/PracticeProblem/PointSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/CollectionAlgorithm/JavaAlgos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/CollectionAlgorithm/JavaAlgos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/CollectionAlgorithm/JavaPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/CollectionAlgorithm/JavaPriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/CollectionAlgorithm/JavaSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/CollectionAlgorithm/JavaSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/CollectionInterface/JavaArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/CollectionInterface/JavaArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/CollectionInterface/JavaSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/CollectionInterface/JavaSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/PracticeProblem/PointSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic Topics/OOP_MID_Practice/src/com/PracticeProblem/PointSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +75,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java Advanced Topics/Threading" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Server (2)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="SocketWithMultipleClient" />
@@ -123,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Client_2" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Server (2)" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>

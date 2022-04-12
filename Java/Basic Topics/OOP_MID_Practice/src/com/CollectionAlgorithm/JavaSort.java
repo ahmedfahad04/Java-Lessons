@@ -9,7 +9,7 @@ public class JavaSort {
 
         String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
         List<String> allsuits = Arrays.asList(suits);
-        int[] price = new int[]{10, 5, 12, 7};
+        int[] price = {10, 5, 12, 7};
 
         System.out.println("Before Sorting");
         for(String s: allsuits){
@@ -22,7 +22,7 @@ public class JavaSort {
             System.out.print(s + " ");
         }
 
-        Collections.sort(allsuits, Collections.reverseOrder());
+        //Collections.sort(allsuits, Collections.reverseOrder());
         Collections.reverse(allsuits);
         System.out.println("\nAfter Sorting in reverse Order");
         for(String s: allsuits){

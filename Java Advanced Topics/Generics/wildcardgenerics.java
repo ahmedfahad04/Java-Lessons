@@ -1,27 +1,28 @@
 import java.util.*;
 
+
+class Building {
+	public int rooms = 7;
+
+	public String toString() {
+		return ("BUILDING");
+	}
+
+	public int getRooms() {
+		return rooms;
+	}
+
+	public void setRooms(int num) {
+		this.rooms = num;
+	}
+
+}
+
 class House extends Building { 
 	public int rooms = 10;
 	
 	public String toString() {
 		return ("HOUSE");
-	}
-	
-	public int getRooms() {
-		return rooms;
-	}
-	
-	public void setRooms(int num) {
-		this.rooms = num;
-	}
-	
-}
-
-class Building {
-	public int rooms = 7;
-	
-	public String toString() {
-		return ("BUILDING");
 	}
 	
 	public int getRooms() {

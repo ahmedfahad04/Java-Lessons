@@ -23,6 +23,7 @@ public class JavaAlgos {
         }
 
         Collections.addAll(vector, institutes);
+
         System.out.println("\nAfter Addall.....");
 
         for(String s: vector){
