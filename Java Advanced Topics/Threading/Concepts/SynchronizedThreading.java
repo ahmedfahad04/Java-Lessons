@@ -60,6 +60,7 @@ class SynchronizedThreading {
         BankAccount account = new BankAccount(50);
         account.topUp(100);
 
+        // in socket we need to pass client instance into a new thread in each time
         Thread t1 = new Thread(() -> {
             ATM.withdraw(account, 100, "Istiaq");
         });

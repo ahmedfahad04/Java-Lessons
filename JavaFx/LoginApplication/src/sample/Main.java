@@ -18,7 +18,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("sample.fxml")));
+        Parent root = FXMLLoader.load(getClass().getResource("/CSS/sample.fxml"));
+//        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("../sample.fxml")));
         primaryStage.initStyle(StageStyle.TRANSPARENT);
 
         //grab your root here

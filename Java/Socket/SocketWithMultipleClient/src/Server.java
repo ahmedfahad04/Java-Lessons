@@ -31,10 +31,12 @@ class ClientHandler extends Thread{
                 oos.writeObject(sent);
 
             } catch (IOException | ClassNotFoundException e) {
-                e.printStackTrace();
+                //e.printStackTrace();
+                return;
             }
 
         }
+
 
         try {
             this.oos.close();
@@ -60,6 +62,7 @@ public class Server {
 
             Socket socket = ss.accept();
             System.out.println("Client Connected..");
+            System.out.println(socket.getRemoteSocketAddress().toString());
 
             ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
