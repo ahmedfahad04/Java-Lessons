@@ -5,7 +5,6 @@ import Reservation.Reservation;
 import java.io.*;
 import java.net.Socket;
 
-import static Main.FXMLManager.LoadFXML;
 
 class ClientHandler extends Thread {
 
@@ -30,9 +29,15 @@ class ClientHandler extends Thread {
             received = reader.readUTF();
             System.out.println(received);
 
-//          * searchForTicket()/Check-availability()
+            // * searchForTicket()/Check-availability()
             Reservation reservation = new Reservation();
             String status = reservation.checkBookingRecords(received);
+
+            if(status.equalsIgnoreCase("OK")){
+                //fillTicketInfoWindow(reservation);
+            } else {
+                writer.writeUTF(status);
+            }
 
             /*
             * searchForTicket()/Check-availability()
@@ -42,7 +47,6 @@ class ClientHandler extends Thread {
             and do the same
              */
 
-            writer.writeUTF(status);
 
         } catch (IOException e) {
             e.printStackTrace();
