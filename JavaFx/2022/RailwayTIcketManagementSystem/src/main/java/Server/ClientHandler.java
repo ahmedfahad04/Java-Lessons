@@ -1,50 +1,63 @@
 package Server;
 
+import Reservation.Reservation;
+
 import java.io.*;
 import java.net.Socket;
+
+import static Main.FXMLManager.LoadFXML;
 
 class ClientHandler extends Thread {
 
     public final Socket socket;
-    public final PrintWriter writer;
-    public final BufferedReader reader;
+    public final DataOutputStream writer;
+    public final DataInputStream reader;
+
 
     public ClientHandler(Socket socket) throws IOException {
         this.socket = socket;
-        this.reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-        this.writer = new PrintWriter(socket.getOutputStream(), true);
+        this.reader = new DataInputStream(new BufferedInputStream(socket.getInputStream()));
+        this.writer = new DataOutputStream(socket.getOutputStream());
     }
 
     public void run() {
-
-        String received = "";
-
-
-        while (!received.equals("Stop")) {
-
-            try {
-                received = reader.readLine();
-                System.out.println("Client: " + received);
-
-                String sent = "Server: " + received + " --> OK!";
-                writer.println(sent);
-
-            } catch (IOException e) {
-                //e.printStackTrace();
-                return;
-            }
-
-        }
-
-
         try {
-            this.reader.close();
-            this.writer.close();
-            this.socket.close();
+            String received = "";    // from clients
+
+
+            System.out.println("WITHIN CLIENT HANDLER");
+
+            received = reader.readUTF();
+            System.out.println(received);
+
+//          * searchForTicket()/Check-availability()
+            Reservation reservation = new Reservation();
+            String status = reservation.checkBookingRecords(received);
+
+            /*
+            * searchForTicket()/Check-availability()
+            -- if yes then go for Purchase()
+            -- then show total cost and availableSeats and another option to get in the main ticket booking window
+            * if no then give an option to get back in ticket booking window
+            and do the same
+             */
+
+            writer.writeUTF(status);
 
         } catch (IOException e) {
             e.printStackTrace();
+
+        } finally {
+            try {
+                this.reader.close();
+                this.writer.close();
+                this.socket.close();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
+
 
     }
 

@@ -8,12 +8,10 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
-import java.util.Objects;
 
 import static Main.FXMLManager.LoadFXML;
+import static Main.newTicketBookingController.userInfo;
 
 public class LoginController extends Thread {
     String name = "fahad";
@@ -41,18 +39,17 @@ public class LoginController extends Thread {
 
         if (Integer.parseInt(mypass) < 200) {
             Admin admin = new Admin();
+            // will handle this case later
             admin.Login(myname, mypass);
 
         } else {
             Customer user = new Customer();
-            user.Login(myname, mypass);
+            user.Name = myname;
+            user.customerID = Integer.parseInt(mypass);
 
-            System.out.println("WILL ENTER INTO NEW WINDOW");
-            LoadFXML(actionEvent.getSource(), "/Main/ticketBooking.fxml"); // this will be changed
+            user.Login(myname, mypass, actionEvent);
+            userInfo(user);
         }
-
-
-
 
     }
 

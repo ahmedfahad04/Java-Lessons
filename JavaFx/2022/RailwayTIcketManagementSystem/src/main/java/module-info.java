@@ -7,7 +7,9 @@ module railwayticketmanagementsystem {
     exports Main;
     exports Login;
     exports Registration;
+    exports Reservation;
     opens Login to javafx.fxml;
     opens Registration to javafx.fxml;
+    opens Reservation to javafx.fxml;
 
 }

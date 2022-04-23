@@ -1,34 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="974bb036-45f5-49af-b730-0bc21ede89cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/.idea/csv-plugin.xml" afterDir="false" />
+    <list default="true" id="65693fec-3199-49e6-a9e4-84dd738b4af5" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/reservation.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Main/newTicketBookingController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Reservation/Reservation.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Reservation/ReservationController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/resources/Main/newTicketBooking.fxml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/resources/Reservation/outOfTicket.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/target/classes/Main/newTicketBookingController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/target/classes/Reservation/Reservation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP_Project_Group7_SOIT/SOIT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocketWithMultipleClient/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/SocketWithMultipleClient/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SocketWithMultipleClient/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SocketWithMultipleClient/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SocketWithMultipleClient/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SocketWithMultipleClient/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Socket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Socket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Socket/SocketWithMultipleClient/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Socket/SocketWithMultipleClient/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Socket/out/production/SocketWithMultipleClient/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Socket/out/production/SocketWithMultipleClient/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Socket/out/production/SocketWithMultipleClient/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Socket/out/production/SocketWithMultipleClient/Server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Login/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Main/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Main/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Main/ticketBookingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Main/ticketBookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Main/ticketBookingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Registration/Registration.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Registration/RegistrationController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Server/ClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/Server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/resources/Main/ticketBooking.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/resources/Main/ticketBooking.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/src/main/resources/Main/ticketBooking.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/target/classes/Login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/target/classes/Login/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/target/classes/Main/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/target/classes/Main/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/target/classes/Main/ticketBooking.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem/target/classes/Main/ticketBooking.fxml" afterDir="false" />
@@ -45,13 +40,6 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -61,7 +49,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="27OGihLzVGyaMnPQxC6SgHibuT7" />
+  <component name="ProjectId" id="288j7Lh905qzf7qAtJh7qsc6oaZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -74,68 +62,41 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaFx/2022/RailwayTIcketManagementSystem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../OOP_Project_Group7_SOIT/SOIT" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Client (2)">
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client" />
-      <module name="SocketWithMultipleClient" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client" />
-      <module name="SocketPractice1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client_2" />
-      <module name="SocketWithMultipleClient" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Server (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Server" />
-      <module name="SocketWithMultipleClient" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Server" />
-      <module name="SocketPractice1" />
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="15" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SOIT.Main" />
+      <module name="SOIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SOIT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Server (2)" />
-        <item itemvalue="Application.Client_2" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="974bb036-45f5-49af-b730-0bc21ede89cc" name="Changes" comment="" />
-      <created>1649183847757</created>
+      <changelist id="65693fec-3199-49e6-a9e4-84dd738b4af5" name="Changes" comment="" />
+      <created>1650604939049</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649183847757</updated>
+      <updated>1650604939049</updated>
     </task>
     <servers />
   </component>

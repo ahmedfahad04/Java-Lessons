@@ -5,110 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1832a868-748b-496d-94af-11188791dab3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Java Advanced Topics/Threading/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java Advanced Topics/Threading/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/Socket/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/Socket/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_openjfx_javafx_base_linux_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_openjfx_javafx_controls_linux_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_openjfx_javafx_fxml_linux_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_openjfx_javafx_graphics_linux_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoProject/DemoProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_linux_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_linux_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_linux_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_linux_17_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RailwayTIcketManagementSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admins.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main/FXMLManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main/ticketBookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Registration/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Registration/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Login/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Main/ticketBooking.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Registration/registration.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Login/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../railway_ticket_management_system/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../railway_ticket_management_system/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../railway_ticket_management_system/Launch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../railway_ticket_management_system/LaunchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../railway_ticket_management_system/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FormInFx/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FormInFx/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FxProject/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FxProject/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LoginApplication/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LoginApplication/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LoginApplication/.idea/libraries/javafx_swing.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LoginApplication/src/CSS/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java Advanced Topics/Threading/Concepts/SynchronizedThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java Advanced Topics/Threading/Concepts/SynchronizedThreading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java Advanced Topics/Threading/out/production/Threading/ClassPractice/UpdatedSimpleArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java Advanced Topics/Threading/out/production/Threading/ClassPractice/UpdatedSimpleArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java Advanced Topics/Threading/out/production/Threading/Concepts/ATM.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java Advanced Topics/Threading/out/production/Threading/Concepts/ATM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java/Basic Topics/OOP_Generics/out/production/Java_Generics/OOP_3/Basic_Generics.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Basic Topics/OOP_Generics/out/production/Java_Generics/OOP_3/Basic_Generics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java/Basic Topics/OOP_Generics/src/OOP_3/Basic_Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Basic Topics/OOP_Generics/src/OOP_3/Basic_Generics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reservation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main/newTicketBookingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Reservation/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Reservation/ReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Main/newTicketBooking.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Reservation/outOfTicket.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Reservation/Reservation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../OOP_Project_Group7_SOIT/SOIT/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Java/Socket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Socket/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java/Socket/SocketWithMultipleClient/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Socket/SocketWithMultipleClient/src/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java/Socket/out/production/SocketWithMultipleClient/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Socket/out/production/SocketWithMultipleClient/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Socket/SocketWithMultipleClient/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Socket/SocketWithMultipleClient/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Socket/out/production/SocketWithMultipleClient/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Socket/out/production/SocketWithMultipleClient/Client.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Java/Socket/out/production/SocketWithMultipleClient/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Socket/out/production/SocketWithMultipleClient/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FormInFx/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../FormInFx/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FxProject/.idea/libraries/javafx_web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FxProject/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../FxProject/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FxProject/.idea/libraries/lib2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FxProject/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoProject/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FxProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../FxProject/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FxProject/FxProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../FxProject/FxProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LoginApplication/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LoginApplication/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LoginApplication/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LoginApplication/LoginApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LoginApplication/LoginApplication.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LoginApplication/out/production/LoginApplication/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LoginApplication/out/production/LoginApplication/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LoginApplication/out/production/LoginApplication/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LoginApplication/out/production/LoginApplication/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LoginApplication/out/production/LoginApplication/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LoginApplication/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LoginApplication/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LoginApplication/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/ticketBookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/ticketBookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Registration/Registration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Registration/RegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Main/ticketBooking.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Main/ticketBooking.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Login/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main/ticketBooking.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/ticketBooking.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main/ticketBookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/ticketBookingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,10 +81,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Messenger" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources/Login" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/java/Login" />
@@ -199,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.Main" />
       <module name="RailwayTIcketManagementSystem" />
       <extension name="coverage">
@@ -225,6 +153,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Reservation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reservation.Reservation" />
+      <module name="RailwayTIcketManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reservation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Server.Server" />
       <module name="RailwayTIcketManagementSystem" />
@@ -238,10 +179,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.HelloApplication" />
+      <item itemvalue="Application.Login" />
+      <item itemvalue="Application.Registration" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Reservation" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Reservation" />
         <item itemvalue="Application.Registration" />
         <item itemvalue="Application.Login" />
         <item itemvalue="Application.HelloApplication" />
@@ -272,5 +221,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jrt:///usr/lib/jvm/java-1.17.0-openjdk-amd64!/java.base/java/lang/Thread.class</url>
+          <line>230</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.EOFException" package="java.io" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

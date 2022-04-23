@@ -6,7 +6,7 @@ import java.net.Socket;
 
 public class Server {
 
-    public Server(int port) throws IOException, ClassNotFoundException {
+    public Server(int port) throws IOException {
 
         System.out.println("Waiting for Clients...");
         ServerSocket ss = new ServerSocket(port);
@@ -15,10 +15,16 @@ public class Server {
 
             Socket socket = ss.accept();
             System.out.println("Client Connected..");
+            System.out.println(socket.getRemoteSocketAddress().toString());
 
-            // JUST Change the Reading and Writing Scheme with Threads to deal with multiple clients
-            Thread t = new ClientHandler(socket);
-            t.start();
+            try{
+                // JUST Change the Reading and Writing Scheme with Threads to deal with multiple clients
+                Thread clients = new ClientHandler(socket);
+                clients.start();
+
+            } catch (Exception e){
+                return;
+            }
 
         }
     }

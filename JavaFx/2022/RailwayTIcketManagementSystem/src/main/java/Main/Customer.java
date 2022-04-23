@@ -1,15 +1,19 @@
 package Main;
 
+import javafx.scene.input.MouseEvent;
+
 import java.io.*;
 import java.util.Objects;
-import java.util.Random;
+
+import static Main.FXMLManager.LoadFXML;
 
 public class Customer {
 
-    private int customerID;
-    private String Phone;
-    private String Email;
-    private String Name;
+    // will consider how can we use private
+    public int customerID;
+    public String Phone;
+    public String Email;
+    public String Name;
 
     public Customer() {
 
@@ -35,18 +39,19 @@ public class Customer {
         System.out.println("DONE!!");
     }
 
-    public void Login(String name, String password) throws IOException {
+    public void Login(String name, String password, MouseEvent actionEvent) throws IOException {
 
         FileReader fr;
         BufferedReader br;
 
-        fr = new FileReader("admins.csv");
+        fr = new FileReader("users.csv");
 
         br = new BufferedReader(fr);
         String line;
         int flag = 0;
 
         while ((line = br.readLine()) != null) { // read a line
+
             String[] part = line.split(",");
             if (Objects.equals(part[3], password) && Objects.equals(part[0], name)) {
                 System.out.println("Login Successful!!");
@@ -56,6 +61,10 @@ public class Customer {
         }
 
         if (flag == 0) System.out.println("Wrong Credentials! Try again.");
+        else {
+            // System.out.println("WILL ENTER INTO NEW WINDOW");
+            LoadFXML(actionEvent.getSource(), "/Main/newTicketBooking.fxml"); // this will be changed
+        }
 
     }
 

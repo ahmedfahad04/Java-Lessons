@@ -16,16 +16,15 @@ public class Client {
         ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
 
         String sent = "";
-        while(!sent.equals("Stop")) {
 
-            Scanner sc = new Scanner(System.in);
-            sent = sc.nextLine();
-            oos.writeObject(sent);
+//            Scanner sc = new Scanner(System.in);
+//            sent = sc.nextLine();
+            oos.writeObject("Hello, I'm Client 1");
 
             String reply = (String) ois.readObject();
             System.out.println(reply);
 
-        }
+
 
         oos.close();
         ois.close();
