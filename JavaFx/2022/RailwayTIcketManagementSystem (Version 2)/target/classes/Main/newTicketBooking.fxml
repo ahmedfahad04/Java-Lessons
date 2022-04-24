@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="495.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.newTicketBookingController">
+   <children>
+      <StackPane fx:id="finalMsgStk" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: fff;">
+         <children>
+            <AnchorPane fx:id="finalMsgPn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="495.0">
+               <children>
+                  <Label prefHeight="56.0" prefWidth="495.0" style="-fx-text-fill: white; -fx-background-color: blue; -fx-text-alignment: center;" text=" Bangladesh Railway: E-ticketing Service">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="returnToBookingPage2" layoutX="122.0" layoutY="294.0" mnemonicParsing="false" onAction="#onClickBookingPage" prefHeight="32.0" prefWidth="251.0" text="Return to Ticket Booking Page" textFill="#1b790d">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="14.0" layoutY="62.0" prefHeight="38.0" prefWidth="461.0" style="-fx-text-fill: black; -fx-alignment: left;" text="Thanks for using BD Railway E-tickeing Service." wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="billDetailslbl" layoutX="14.0" layoutY="110.0" prefHeight="124.0" prefWidth="454.0" style="-fx-alignment: left;" />
+                  <Label layoutX="14.0" layoutY="253.0" prefHeight="20.0" prefWidth="94.0" style="-fx-font-weight: bold;" text="Total Bill: ">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="totalBilllbl" layoutX="122.0" layoutY="253.0" prefHeight="20.0" prefWidth="160.0" style="-fx-font-weight: bold; -fx-text-fill: red;">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+      <StackPane fx:id="purchaseStk" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: fff;">
+         <children>
+            <AnchorPane fx:id="purchasePn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="495.0">
+               <children>
+                  <Label prefHeight="56.0" prefWidth="495.0" style="-fx-text-fill: white; -fx-background-color: blue; -fx-text-alignment: center;" text=" Bangladesh Railway: E-ticketing Service">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="21.0" layoutY="145.0" prefHeight="32.0" prefWidth="60.0" text="Time: ">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="purchaseBtn" layoutX="365.0" layoutY="313.0" mnemonicParsing="false" onAction="#onClickPurchaseTicket" prefHeight="32.0" prefWidth="108.0" text="  Purchase " textAlignment="CENTER" textFill="#1a0d78">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="destinationlbl" layoutX="21.0" layoutY="92.0" prefHeight="38.0" prefWidth="454.0" style="-fx-border-color: black; -fx-text-fill: green; -fx-alignment: left;" textFill="#0b4d16" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="21.0" layoutY="186.0" prefHeight="32.0" prefWidth="75.0" text="Date:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="21.0" layoutY="224.0" prefHeight="32.0" prefWidth="151.0" text="Available Seats:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="21.0" layoutY="263.0" prefHeight="32.0" prefWidth="60.0" text="Price: ">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="timelbl" layoutX="81.0" layoutY="145.0" prefHeight="32.0" prefWidth="394.0" style="-fx-border-color: black;">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="datelbl" layoutX="81.0" layoutY="186.0" prefHeight="32.0" prefWidth="394.0" style="-fx-border-color: black;">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="seatlbl" layoutX="172.0" layoutY="227.0" prefHeight="32.0" prefWidth="160.0" style="-fx-border-color: black;">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="price" layoutX="81.0" layoutY="266.0" prefHeight="32.0" prefWidth="394.0" style="-fx-border-color: black;">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="seatfld" layoutX="340.0" layoutY="227.0" prefHeight="32.0" prefWidth="133.0" promptText="Enter no. of seat">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+      <StackPane fx:id="errorMsgStk" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: fff;">
+         <children>
+            <AnchorPane fx:id="errorPn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="495.0">
+               <children>
+                  <Label prefHeight="56.0" prefWidth="495.0" style="-fx-text-fill: white; -fx-background-color: blue; -fx-text-alignment: center;" text=" Bangladesh Railway: E-ticketing Service">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="returnToBookingPage" layoutX="123.0" layoutY="278.0" mnemonicParsing="false" onMousePressed="#onClickBookingPage" prefHeight="32.0" prefWidth="251.0" text="Return to Ticket Booking Page" textFill="#1b790d">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="103.0" layoutY="125.0" prefHeight="124.0" prefWidth="290.0" style="-fx-text-fill: red; -fx-alignment: center;" text="Sorry !! No ticket available for your given Destinition. Try another one." textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+      <StackPane fx:id="registerStk" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: fff;">
+         <children>
+            <AnchorPane fx:id="regPn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="495.0">
+               <children>
+                  <Label prefHeight="56.0" prefWidth="495.0" style="-fx-text-fill: white; -fx-background-color: blue; -fx-text-alignment: center;" text=" Bangladesh Railway: E-ticketing Service">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="addressFrom" layoutX="125.0" layoutY="124.0" prefHeight="32.0" prefWidth="295.0" />
+                  <Label layoutX="33.0" layoutY="130.0" prefHeight="20.0" prefWidth="54.0" text="From">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="addressTo" layoutX="125.0" layoutY="177.0" prefHeight="32.0" prefWidth="295.0" />
+                  <Label layoutX="33.0" layoutY="183.0" prefHeight="20.0" prefWidth="54.0" text="To">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="findTicketBtn" layoutX="312.0" layoutY="286.0" mnemonicParsing="false" onAction="#onFindTicketBtnClick" prefHeight="32.0" prefWidth="108.0" text="Find Ticket" textFill="#1b790d">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="33.0" layoutY="236.0" prefHeight="20.0" prefWidth="54.0" text="Date">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="21.0" layoutY="71.0" prefHeight="32.0" prefWidth="231.0" style="-fx-text-fill: red;" text="Enter your Destination:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <DatePicker fx:id="date" layoutX="125.0" layoutY="230.0" onAction="#onDatePickerClick" prefHeight="32.0" prefWidth="295.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

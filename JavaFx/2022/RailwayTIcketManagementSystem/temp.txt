@@ -1,0 +1,3 @@
+Baramchal railway station,Adamdighi railway station,2022-04-25,8:00,15,50
+Chattogram railway station,Gendaria railway station,2022-04-26,7:00,20,70
+Darshana railway station,Narshingdi railway station,2022-04-27,8:00,8,70

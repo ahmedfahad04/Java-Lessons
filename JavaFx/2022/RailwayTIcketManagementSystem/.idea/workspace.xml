@@ -5,20 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1832a868-748b-496d-94af-11188791dab3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Java/Socket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Socket/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/Basic Topics/OOP_MID_Practice/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/Basic Topics/OOP_MID_Practice/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Reservation/AddNewEntryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Reservation/addField.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Reservation/update_add_field.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stationList.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reservation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main/newTicketBookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/newTicketBookingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Reservation/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reservation/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Reservation/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reservation/ReservationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/ClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Main/newTicketBooking.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Main/newTicketBooking.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Login/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main/newTicketBooking.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/newTicketBooking.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main/newTicketBookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/newTicketBookingController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Reservation/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Reservation/Reservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Reservation/ReservationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Reservation/ReservationController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/ClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OOP_Project_Group7_SOIT/SOIT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OOP_Project_Group7_SOIT/SOIT/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/users.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../railway_ticket_management_system/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../railway_ticket_management_system/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../railway_ticket_management_system/Launch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../railway_ticket_management_system/LaunchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../railway_ticket_management_system/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +82,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Java/Basic Topics/OOP_MID_Practice" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
@@ -84,7 +101,7 @@
       <recent name="railwayticketmanagementsystem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Server">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.railwayticketmanagementsystem.HelloApplication" />
       <module name="RailwayTIcketManagementSystem" />

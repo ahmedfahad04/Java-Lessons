@@ -1,5 +1,7 @@
 package Main;
 
+import javafx.scene.input.MouseEvent;
+
 import java.io.*;
 import java.util.Objects;
 import java.util.Random;
@@ -36,7 +38,6 @@ public class Admin {
         FileWriter fw = new FileWriter("admins.csv", true);
         fw.write(content);
         fw.close();
-        System.out.println("DONE!!");
     }
 
     public void updateUserAccount() {
@@ -47,11 +48,10 @@ public class Admin {
 
     }
 
-    public void Login(String name, String password) throws IOException {   // need to be merged in an interface
+    public void Login(String name, String password, MouseEvent event) throws IOException {   // need to be merged in an interface
 
         FileReader fr;
         BufferedReader br;
-
         fr = new FileReader("admins.csv");
 
         br = new BufferedReader(fr);
@@ -68,6 +68,9 @@ public class Admin {
         }
 
         if (flag == 0) System.out.println("Wrong Credentials! Try again.");
+        else {
+            LoadFXML(event.getSource(), "/Reservation/addField.fxml");
+        }
     }
 
     public void updateTrainSchedule() {

@@ -62,7 +62,6 @@ public class Customer {
 
         if (flag == 0) System.out.println("Wrong Credentials! Try again.");
         else {
-            // System.out.println("WILL ENTER INTO NEW WINDOW");
             LoadFXML(actionEvent.getSource(), "/Main/newTicketBooking.fxml"); // this will be changed
         }
 

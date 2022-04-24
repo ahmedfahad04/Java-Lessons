@@ -22,8 +22,6 @@ class ClientHandler extends Thread {
     public void run() {
         try {
             String received = "";    // from clients
-
-
             System.out.println("WITHIN CLIENT HANDLER");
 
             received = reader.readUTF();
@@ -38,15 +36,6 @@ class ClientHandler extends Thread {
             } else {
                 writer.writeUTF(status);
             }
-
-            /*
-            * searchForTicket()/Check-availability()
-            -- if yes then go for Purchase()
-            -- then show total cost and availableSeats and another option to get in the main ticket booking window
-            * if no then give an option to get back in ticket booking window
-            and do the same
-             */
-
 
         } catch (IOException e) {
             e.printStackTrace();

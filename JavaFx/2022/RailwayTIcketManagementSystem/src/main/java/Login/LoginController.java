@@ -14,8 +14,6 @@ import static Main.FXMLManager.LoadFXML;
 import static Main.newTicketBookingController.userInfo;
 
 public class LoginController extends Thread {
-    String name = "fahad";
-    String pass = "1234";
 
     @FXML
     public TextField txtname;
@@ -39,8 +37,9 @@ public class LoginController extends Thread {
 
         if (Integer.parseInt(mypass) < 200) {
             Admin admin = new Admin();
+
             // will handle this case later
-            admin.Login(myname, mypass);
+            admin.Login(myname, mypass, actionEvent);
 
         } else {
             Customer user = new Customer();

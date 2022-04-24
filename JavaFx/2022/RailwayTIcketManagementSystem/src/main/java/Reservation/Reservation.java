@@ -5,6 +5,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+
 public class Reservation {
 
     private String userName;
@@ -14,6 +15,7 @@ public class Reservation {
     private String startingPoint;
     private String Date;
     private String ticketDetails;
+    private String[] info;
     private int numberOfSeats;
     private double cost;
 
@@ -27,7 +29,7 @@ public class Reservation {
 
     public String checkBookingRecords(String data) throws IOException {
 
-        String[] info = data.split(",");
+        info = data.split(",");
 
         // search for reservation availability
         FileReader fr;
@@ -42,7 +44,7 @@ public class Reservation {
 
             String[] scheduleInfo = line.split(",");
 
-            System.out.println("SEATS: " + Integer.parseInt(scheduleInfo[4]));
+            System.out.println("SEATS: " + scheduleInfo[4]);
 
             if (info[2].equalsIgnoreCase(scheduleInfo[0]) && info[3].equalsIgnoreCase(scheduleInfo[1]) && info[4].equalsIgnoreCase(scheduleInfo[2]) && Integer.parseInt(scheduleInfo[4]) != 0) {
                 // ticket available
